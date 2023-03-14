@@ -1,5 +1,4 @@
-import { test } from '@/utils'
-import logo from '~/logo.svg'
+import logo from '@/logo.svg'
 
 const Hello = () => {
   return (
@@ -10,7 +9,7 @@ const Hello = () => {
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
-        paddingTop: '50px',
+        paddingTop: '50px'
       }}
     >
       <img src={logo} alt='Logo' style={{ height: '150px' }} />
@@ -21,7 +20,7 @@ const Hello = () => {
           fontSize: '1.6rem',
           display: 'flex',
           flexDirection: 'column',
-          gap: '14px',
+          gap: '14px'
         }}
       >
         <li>🚀 Vite</li>
